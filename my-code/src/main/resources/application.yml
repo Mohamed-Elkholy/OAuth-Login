@@ -1,1 +1,13 @@
-
+server:
+  port: 8181
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.a590049ecea765ad
+            client-secret: df25cce45ca4074932033ad0530632bf747fd213
+          google:
+            client-id: 743826924379-lbbqtqe261t7hdondebqssllnqv9prpt.apps.googleusercontent.com
+            client-secret: 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
